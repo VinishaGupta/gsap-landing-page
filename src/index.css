@@ -22,7 +22,11 @@ body {
     color: white;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    
 }
+/* body{
+    padding: 20px;
+} */
 
 @utility flex-center {
     @apply flex justify-center items-center;
