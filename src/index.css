@@ -22,12 +22,20 @@ body {
     color: white;
     scroll-behavior: smooth;
     overflow-x: hidden;
+      scrollbar-width: none;
+  -ms-overflow-style: none;
     
 }
 /* body{
     padding: 20px;
 } */
 
+
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
 @utility flex-center {
     @apply flex justify-center items-center;
 }
